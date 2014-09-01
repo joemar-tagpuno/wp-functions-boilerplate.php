@@ -58,6 +58,8 @@ function wpcf7_update_email_resources($wpcf7_data)
 
 add_action("wpcf7_before_send_mail", "wpcf7_update_email_resources", 2);
 
+
+
 function wpcf7_update_dlm_widgets_resources($wpcf7_data)
 {
     $formData = $_POST;
